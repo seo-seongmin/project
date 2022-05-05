@@ -5,14 +5,17 @@
       <map>
         <entry key="..\:/Users/admin/AndroidStudioProjects/test2/app/src/main/res/drawable/button_shape.xml" value="0.1735" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/test2/app/src/main/res/drawable/input_shape.xml" value="0.1735" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/test2/app/src/main/res/drawable/round.xml" value="0.196" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/test2/app/src/main/res/drawable/round1.xml" value="0.196" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/test2/app/src/main/res/font/font.xml" value="0.21770833333333334" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/test2/app/src/main/res/layout-v31/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/test2/app/src/main/res/layout/activity_main.xml" value="0.16" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/test2/app/src/main/res/layout/findid.xml" value="0.1" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/test2/app/src/main/res/layout/login.xml" value="0.1" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/test2/app/src/main/res/layout/login2.xml" value="0.13269927536231885" />
-        <entry key="..\:/Users/admin/AndroidStudioProjects/test2/app/src/main/res/layout/main.xml" value="0.2" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/test2/app/src/main/res/layout/main.xml" value="0.22" />
         <entry key="..\:/Users/admin/AndroidStudioProjects/test2/app/src/main/res/layout/signin.xml" value="0.1" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/test2/app/src/main/res/menu/menu.xml" value="0.18802083333333333" />
       </map>
     </option>
   </component>
