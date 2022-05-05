@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">한끼한긱</string>
+    <string name="login">로그인</string>
+    <string name="kakao">카카오로 로그인</string>
+    <string name="plsid">ID</string>
+    <string name="plspwd">Password</string>
+</resources>

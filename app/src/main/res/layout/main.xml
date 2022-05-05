@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/food"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:src="@drawable/food"
+        app:civ_border_color="#000000"
+        app:civ_border_overlay="false"
+        app:layout_constraintEnd_toStartOf="@+id/korea"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="220dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/korea"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:src="@drawable/korea"
+        app:civ_border_color="#000000"
+        app:civ_border_overlay="false"
+        app:layout_constraintEnd_toStartOf="@+id/china"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/food"
+        app:layout_constraintTop_toTopOf="@+id/food" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/china"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:src="@drawable/china"
+        app:civ_border_color="#000000"
+        app:civ_border_overlay="false"
+        app:layout_constraintEnd_toStartOf="@+id/japan"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/korea"
+        app:layout_constraintTop_toTopOf="@+id/korea" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/japan"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:src="@drawable/japan"
+        app:civ_border_color="#000000"
+        app:civ_border_overlay="false"
+        app:layout_constraintEnd_toStartOf="@+id/pizza"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/china"
+        app:layout_constraintTop_toTopOf="@+id/china" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/pizza"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:src="@drawable/pizza"
+        app:civ_border_color="#000000"
+        app:civ_border_overlay="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/japan"
+        app:layout_constraintTop_toTopOf="@+id/japan" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/cafe"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/cafe"
+        app:civ_border_color="#000000"
+        app:civ_border_overlay="false"
+        app:layout_constraintEnd_toStartOf="@+id/snackbar"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/snackbar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:src="@drawable/snackbar"
+        app:civ_border_color="#000000"
+        app:civ_border_overlay="false"
+        app:layout_constraintEnd_toStartOf="@+id/chicken"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/cafe"
+        app:layout_constraintTop_toTopOf="@+id/cafe" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/chicken"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:src="@drawable/chicken"
+        app:civ_border_color="#000000"
+        app:civ_border_overlay="false"
+        app:layout_constraintEnd_toStartOf="@+id/pasta"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/snackbar"
+        app:layout_constraintTop_toTopOf="@+id/snackbar" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/hamburger"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:src="@drawable/hamburger"
+        app:civ_border_color="#000000"
+        app:civ_border_overlay="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/pasta"
+        app:layout_constraintTop_toTopOf="@+id/pasta" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/pasta"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:src="@drawable/pasta"
+        app:civ_border_color="#000000"
+        app:civ_border_overlay="false"
+        app:layout_constraintEnd_toStartOf="@+id/hamburger"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/chicken"
+        app:layout_constraintTop_toTopOf="@+id/chicken" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="전체"
+        app:layout_constraintEnd_toEndOf="@+id/food"
+        app:layout_constraintStart_toStartOf="@+id/food"
+        app:layout_constraintTop_toBottomOf="@+id/food" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="중식"
+        app:layout_constraintEnd_toEndOf="@+id/china"
+        app:layout_constraintStart_toStartOf="@+id/china"
+        app:layout_constraintTop_toBottomOf="@+id/china" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="피자"
+        app:layout_constraintEnd_toEndOf="@+id/pizza"
+        app:layout_constraintStart_toStartOf="@+id/pizza"
+        app:layout_constraintTop_toBottomOf="@+id/pizza" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="일식"
+        app:layout_constraintEnd_toEndOf="@+id/japan"
+        app:layout_constraintStart_toStartOf="@+id/japan"
+        app:layout_constraintTop_toBottomOf="@+id/japan" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="한식"
+        app:layout_constraintEnd_toEndOf="@+id/korea"
+        app:layout_constraintStart_toStartOf="@+id/korea"
+        app:layout_constraintTop_toBottomOf="@+id/korea" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="디저트"
+        app:layout_constraintEnd_toEndOf="@+id/cafe"
+        app:layout_constraintStart_toStartOf="@+id/cafe"
+        app:layout_constraintTop_toBottomOf="@+id/cafe" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="분식"
+        app:layout_constraintEnd_toEndOf="@+id/snackbar"
+        app:layout_constraintStart_toStartOf="@+id/snackbar"
+        app:layout_constraintTop_toBottomOf="@+id/snackbar" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="치킨"
+        app:layout_constraintEnd_toEndOf="@+id/chicken"
+        app:layout_constraintStart_toStartOf="@+id/chicken"
+        app:layout_constraintTop_toBottomOf="@+id/chicken" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="양식"
+        app:layout_constraintEnd_toEndOf="@+id/pasta"
+        app:layout_constraintStart_toStartOf="@+id/pasta"
+        app:layout_constraintTop_toBottomOf="@+id/pasta" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="패스트푸드"
+        app:layout_constraintEnd_toEndOf="@+id/hamburger"
+        app:layout_constraintStart_toStartOf="@+id/hamburger"
+        app:layout_constraintTop_toBottomOf="@+id/hamburger" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView18"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dormitory" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="242dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="25dp"
+        android:text="가천대학교 1기숙사"
+        android:fontFamily=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="@+id/imageView2" />
+</androidx.constraintlayout.widget.ConstraintLayout>
